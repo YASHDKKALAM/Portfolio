@@ -1,3 +1,7 @@
+import profilePhoto from "../assets/YashKalam.JPG";
+import linkedInPythonCert from "../assets/CertificateOfCompletion_Getting Started with Python-1.png";
+import dsPythonCert from "../assets/Python.png";
+
 export const profile = {
   name: "Yash Kalam",
   title: "Software Engineer",
@@ -5,14 +9,30 @@ export const profile = {
   phone: "+91 9715822928",
   email: "yashdkalam@gmail.com",
   linkedin: "https://linkedin.com/in/yash-kalam-885a1a208",
+  photo: profilePhoto,
   summary:
     "Strategic Software Engineer skilled in application development, testing, and optimization. Excels at coordinating ground-up planning, programming, and implementation for core modules. Maintains strong object-oriented and software architecture fundamentals.",
 };
 
+export const certifications = [
+  {
+    title: "R&D Python Developer Exam Level 1",
+    issuer: "Dassault Systèmes",
+    date: "March 2026",
+    image: dsPythonCert,
+  },
+  {
+    title: "Getting Started with Python",
+    issuer: "LinkedIn Learning",
+    date: "March 2026",
+    image: linkedInPythonCert,
+  },
+];
+
 export const skills = [
   {
     category: "Programming Languages",
-    items: ["C", "C++", "JavaScript"],
+    items: ["C", "C++", "JavaScript", "Python"],
   },
   {
     category: "Web Technologies",
@@ -122,6 +142,7 @@ export const navLinks = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "experience", label: "Experience" },
+  { id: "certifications", label: "Certifications" },
   { id: "education", label: "Education" },
   { id: "projects", label: "Projects" },
   { id: "contact", label: "Contact" },
