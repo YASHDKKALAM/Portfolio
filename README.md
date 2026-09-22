@@ -4,7 +4,7 @@ Personal portfolio website built with React and Vite, showcasing experience, ski
 
 ## Live Site
 
-After deployment: `https://<your-github-username>.github.io/yash-kalam-portfolio/`
+After deployment: `https://YASHDKKALAM.github.io/Portfolio/`
 
 ## Local Development
 
@@ -24,7 +24,7 @@ npm run preview
 
 This project uses GitHub Actions to deploy to GitHub Pages on every push to `main`.
 
-1. Create a GitHub repository named `yash-kalam-portfolio`
-2. Push this project to the repository
-3. In GitHub repo settings → Pages → Build and deployment → Source: **GitHub Actions**
-4. Push to `main` and the site will deploy automatically
+1. Push this project to `https://github.com/YASHDKKALAM/Portfolio`
+2. Open **Settings → Pages** on GitHub (not in local git): https://github.com/YASHDKKALAM/Portfolio/settings/pages
+3. Under **Build and deployment → Source**, choose **GitHub Actions**
+4. Push to `main` (or run the workflow from the **Actions** tab) and the site deploys automatically
