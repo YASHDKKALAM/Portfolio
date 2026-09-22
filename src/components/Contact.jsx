@@ -15,12 +15,30 @@ export default function Contact() {
         </a>
         <a
           className="contact-card"
+          href={profile.github}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <span className="contact-label">GitHub</span>
+          <span className="contact-value">github.com/YASHDKKALAM</span>
+        </a>
+        <a
+          className="contact-card"
           href={profile.linkedin}
           rel="noreferrer"
           target="_blank"
         >
           <span className="contact-label">LinkedIn</span>
-          <span className="contact-value">yash-kalam-885a1a208</span>
+          <span className="contact-value">yash-kalam-685a1a206</span>
+        </a>
+        <a
+          className="contact-card"
+          href={profile.udemy}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <span className="contact-label">Udemy</span>
+          <span className="contact-value">yash-kalam-2</span>
         </a>
         <div className="contact-card contact-card-static">
           <span className="contact-label">Location</span>

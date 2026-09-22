@@ -4,14 +4,16 @@ import dsPythonCert from "../assets/Python.png";
 
 export const profile = {
   name: "Yash Kalam",
-  title: "Software Engineer",
-  location: "Pune, India",
-  phone: "+91 9715822928",
-  email: "yashdkalam@gmail.com",
-  linkedin: "https://linkedin.com/in/yash-kalam-885a1a208",
+  title: "Software Engineering Specialist",
+  location: "Pune, Maharashtra, India",
+  phone: "+91 9175629289",
+  email: "yashdkkalam@gmail.com",
+  linkedin: "https://linkedin.com/in/yash-kalam-685a1a206",
+  github: "https://github.com/YASHDKKALAM",
+  udemy: "https://www.udemy.com/user/yash-kalam-2/",
   photo: profilePhoto,
   summary:
-    "Strategic Software Engineer skilled in application development, testing, and optimization. Excels at coordinating ground-up planning, programming, and implementation for core modules. Maintains strong object-oriented and software architecture fundamentals.",
+    "Software Engineer with 3 years of experience in enterprise software development, test automation, and Python-based solutions at Dassault Systèmes. Experienced in JavaScript, Python, React.js, Selenium, and AI-powered applications with a proven track record of improving automation coverage from 9% to 85% and delivering scalable software solutions.",
 };
 
 export const certifications = [
@@ -31,29 +33,31 @@ export const certifications = [
 
 export const skills = [
   {
-    category: "Programming Languages",
-    items: ["C", "C++", "JavaScript", "Python"],
+    category: "Languages",
+    items: ["JavaScript", "Python", "SQL"],
   },
   {
-    category: "Web Technologies",
-    items: ["HTML", "CSS", "React"],
+    category: "Frontend",
+    items: ["React.js", "HTML5", "CSS3", "REST APIs", "JavaScript ES6+"],
   },
   {
-    category: "Testing & Debugging",
+    category: "Testing",
     items: [
-      "Karma/Cheetah framework",
-      "Debugging techniques",
-      "Testing & troubleshooting",
+      "Playwright",
+      "Selenium WebDriver",
+      "Test Automation",
+      "Karma",
+      "Cheetah Automation Framework",
+      "Cypress",
     ],
   },
   {
-    category: "Other Skills",
-    items: [
-      "Release management",
-      "Quality assurance",
-      "Customer support",
-      "Effective communication",
-    ],
+    category: "AI / LLM",
+    items: ["ML", "LangChain", "LangGraph", "ChromaDB", "RAG", "Vector Databases"],
+  },
+  {
+    category: "Tools",
+    items: ["Git", "Jira", "AWS", "Agile/Scrum", "Postman"],
   },
 ];
 
@@ -61,13 +65,15 @@ export const experience = [
   {
     company: "Dassault Systèmes",
     location: "Pune, India",
-    role: "Software Engineer",
+    role: "Software Engineering Specialist",
     period: "October 2023 – Present",
     highlights: [
-      "Led software development, testing, and SDLC release management.",
-      "Conducted code reviews to ensure coding standards and best practices.",
-      "Resolved customer issues with workarounds and bug fixes.",
-      "Improved code coverage from 9% to 85% using various testing frameworks.",
+      "Architected and delivered enterprise-scale software features across the complete SDLC, including design, development, testing, deployment, and production support.",
+      "Resolved 300+ production and development issues across 15+ software modules through root-cause analysis, debugging, and code optimization.",
+      "Designed and implemented 30+ high-impact automated test scenarios using Selenium and Cheetah, covering approximately 6,000+ lines of business-critical code.",
+      "Increased automated test coverage from 9% to 85% using Karma, Selenium, and Cheetah frameworks.",
+      "Developed a Python-based automation utility using Tkinter and task scheduling to automate repetitive internal workflows.",
+      "Built and maintained an internal Test Automation Runner platform for daily regression suites through SCM-integrated pipelines.",
     ],
   },
   {
@@ -76,66 +82,64 @@ export const experience = [
     role: "Software Engineering Intern",
     period: "March 2023 – August 2023",
     highlights: [
-      "Learned internal tools and company processes.",
-      "Contributed to enhancing the company's website with a visualizer.",
+      "Developed a reusable percentage visualization component using JavaScript adopted across multiple internal web applications.",
+      "Developed and maintained React.js-based user interfaces for internal enterprise applications.",
     ],
   },
 ];
 
 export const education = [
   {
-    degree: "B.Tech | Computer Science",
+    degree: "B.Tech in Computer Science and Engineering",
     school: "Walchand College of Engineering, Sangli",
-    period: "Graduated: January 2023",
-    details: "GPA: 1st Year 7.5/10, 2nd Year 8/10, 3rd Year 7.8/10, 4th Year 7.9/10",
+    period: "2019 – 2023",
+    details: "CGPA: 7.8",
   },
   {
-    degree: "12th Standard",
+    degree: "Higher Secondary Certificate (HSC)",
     school: "Creative Public School, Pune",
-    period: "January 2019",
+    period: "2019",
+    details: "72%",
   },
   {
-    degree: "10th Standard",
+    degree: "Secondary School Certificate (SSC)",
     school: "Creative Public School, Pune",
-    period: "January 2017",
+    period: "2017",
+    details: "82%",
   },
 ];
 
 export const projects = [
   {
-    title: "Wheat Classifier App",
+    title: "AI-Powered Financial Statement Analyzer",
     description:
-      "Built a machine learning application for wheat seed classification with practical agricultural use cases.",
-    tags: ["Machine Learning", "Application Development"],
+      "Built an end-to-end financial document intelligence platform using Python, Local LLaMA LLMs, Pandas, and PDF extraction libraries. Automated transaction extraction, data normalization, categorization, and balance-sheet generation through AI-powered document understanding and RAG workflows.",
+    tags: ["Python", "LLM", "RAG", "Pandas", "PDF Extraction"],
   },
   {
-    title: "Agricultural Drone",
+    title: "IoT Agriculture Drone System",
     description:
-      "Designed a drone prototype for spraying fertilizers — awarded First Prize at UCE ACM Innovation Project Showcase 2022.",
-    tags: ["Hardware", "Innovation", "Agriculture"],
+      "Designed and developed a GPS-enabled agricultural drone with mobile-based control, automated fertilizer spraying, and real-time video monitoring. Awarded Rank 1 Academic Project at Walchand College of Engineering.",
+    tags: ["IoT", "GPS", "Mobile Control", "Hardware"],
   },
   {
-    title: "Car Buy & Sell Platform",
+    title: "Workflow Automation Scheduler",
     description:
-      "Used machine learning to create a price prediction model for vehicle sales on a buy-and-sell platform.",
-    tags: ["Machine Learning", "Web Platform"],
+      "Developed a Python-based desktop application using Tkinter and task scheduling libraries to automate repetitive operational workflows with automated job execution, monitoring, and reporting.",
+    tags: ["Python", "Tkinter", "Automation", "Desktop App"],
   },
 ];
 
 export const awards = [
-  "First Prize, UCE ACM Innovation Project Showcase 2022 – Agricultural Drone Project",
-  "India Book of Records 2023 – Recognition for travel vlogging in Aurangabad",
+  "Best Performer Award – Quality Production, Dassault Systèmes",
+  "Winner – WCE ACM Innovation Project Showcase 2022",
+  "Rank 1 Academic Project – IoT Agriculture Drone System",
 ];
 
 export const extracurriculars = [
-  "Udemy Instructor – Rated 4.2/5 with 5K+ students and 23K+ watch time minutes",
-  "YouTuber – 1.2K+ subscribers, 3.2K+ hours of content viewed",
-];
-
-export const languages = [
-  { name: "Marathi", level: "First Language" },
-  { name: "Hindi", level: "B1" },
-  { name: "English", level: "A2" },
+  "Udemy Instructor with 14,420+ learners and a 4.4/5 average course rating",
+  "Mentored 100+ engineering students through technical workshops and project guidance",
+  "Technology Content Creator producing educational content on programming, AI, and engineering",
 ];
 
 export const navLinks = [

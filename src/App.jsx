@@ -21,10 +21,10 @@ function App() {
           <div className="about-content">
             <p>{profile.summary}</p>
             <p>
-              Currently working as a Software Engineer at Dassault Systèmes in Pune,
-              I focus on building reliable software, improving test coverage, and
-              delivering quality releases. Beyond work, I teach on Udemy, create
-              content on YouTube, and enjoy building innovative projects.
+              Currently working as a Software Engineering Specialist at Dassault Systèmes,
+              I focus on enterprise software development, test automation, Python solutions,
+              and AI-powered applications. Beyond work, I teach on Udemy, mentor students,
+              and create technology content on programming and engineering.
             </p>
           </div>
         </Section>

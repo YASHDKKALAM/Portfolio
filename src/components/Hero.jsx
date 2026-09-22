@@ -16,6 +16,14 @@ export default function Hero() {
             </a>
             <a
               className="btn btn-secondary"
+              href={profile.github}
+              rel="noreferrer"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              className="btn btn-secondary"
               href={profile.linkedin}
               rel="noreferrer"
               target="_blank"

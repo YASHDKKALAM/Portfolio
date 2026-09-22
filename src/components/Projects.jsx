@@ -30,7 +30,7 @@ export default function Projects() {
           </ul>
         </article>
         <article className="highlight-card">
-          <h3>Extra Curriculars</h3>
+          <h3>Leadership &amp; Activities</h3>
           <ul>
             {extracurriculars.map((item) => (
               <li key={item}>{item}</li>

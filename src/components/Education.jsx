@@ -1,9 +1,9 @@
 import Section from "./Section";
-import { education, languages } from "../data/resume";
+import { education } from "../data/resume";
 
 export default function Education() {
   return (
-    <Section id="education" title="Education" subtitle="Academic background and language proficiency">
+    <Section id="education" title="Education" subtitle="Academic background">
       <div className="education-grid">
         {education.map((item) => (
           <article className="education-card" key={`${item.degree}-${item.period}`}>
@@ -13,16 +13,6 @@ export default function Education() {
             {item.details && <p className="education-details">{item.details}</p>}
           </article>
         ))}
-      </div>
-      <div className="languages">
-        <h3>Languages</h3>
-        <div className="language-list">
-          {languages.map((lang) => (
-            <span className="language-chip" key={lang.name}>
-              {lang.name} · {lang.level}
-            </span>
-          ))}
-        </div>
       </div>
     </Section>
   );
